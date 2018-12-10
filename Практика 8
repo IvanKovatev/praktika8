@@ -1,3 +1,7 @@
+//Задача 6. Задача со скобками. Вводится символьная строка, в которой записано выражение со
+скобками трех типов: [], {} и (). Определить, верно ли расставлены скобки (не обращая внимания
+на остальные символы).
+
 import java.util.Objects;
 import java.util.Vector;
 import java.util.Scanner;
@@ -7,7 +11,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String lineS;
         Vector <Character> vect = new Vector<Character>();
-        System.out.println("Введите выражение\n");
+        System.out.println("Введите выражение и правильно расставьте скобки\n");
         lineS = input.nextLine();
         for (int i = 0; i < lineS.length(); i++)
         {
